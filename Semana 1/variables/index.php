@@ -26,7 +26,7 @@ function ejercicio_1(){
     echo var_dump($x). "<br>";
     echo var_dump(dolar). "<br>";
     echo var_dump(pi). "<br>";
-    echo var_dump(euler). "<br>";
+    echo var_dump(euler);
 }
 
 ejercicio_1();
@@ -56,30 +56,6 @@ const NewVersion = '4.2.4';
 $GLOBALS['AÑO'] = 2019;
 $suma = $x + $y;
 $ciudad = &$nombre;
-
-echo "<br><br> <strong>Respuesta: </strong>". "<br>";
-echo "
-const PI = 3.14;<br>
-\$nombre = 'Diego';<br>
-\$apellido = 'Diaz';<br>
-static \$lenguaje = 'PHP';<br>
-\$saludo = 'Hola';<br>
-\$edad = 18.5;<br>
-\$precioCamisa = 48.500;<br>
-define('dosVARIABLES', 'Hola Saludos');<br>
-define('número', '9');<br>
-global \$edad;<br>
-\$ciudad = 'Medellín';<br>
-\$ApellidoCompleto = 'Palacio Valencia';<br>
-const Version = '4.2.3';<br>
-echo \$apellido;<br>
-\$pais = 'Colombia';<br>
-\$x=1; \$y=2;<br>
-const NewVersion = '4.2.4';<br>
-\$GLOBALS['AÑO'] = 2019;<br>
-\$suma = \$x + \$y;<br>
-\$ciudad = &\$nombre;<br>
-";
 
 echo "<br><br> ---------------------------------- <br><br>";
 
